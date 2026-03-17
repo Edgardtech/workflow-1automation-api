@@ -2,10 +2,10 @@
   "name": "workflow-automation-api",
   "version": "1.0.0",
   "description": "RESTful API for workflow automation and integrations — Airtable, Slack, Email, Webhooks",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "nodemon src/index.js",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "jest --coverage",
     "lint": "eslint src/"
   },
